@@ -198,16 +198,27 @@ Flash `firmware/main.py` to an M5StickC Plus via [Thonny](https://thonny.org/). 
 
 ```text
 twelfth-night/
-├── web/                       # Browser-based interaction interface
-│   ├── index.html             #   Single-page application (zero dependencies)
+├── web/                       # Browser interaction layer (HTML/CSS/JS)
+│   ├── index.html             #   Application shell and structure
+│   ├── styles/
+│   │   └── main.css           #   All visual styling (~470 lines)
+│   ├── scripts/
+│   │   ├── app.js             #   Core state, scenes, UI rendering
+│   │   ├── gesture.js         #   MediaPipe hand tracking pipeline
+│   │   ├── aiClient.js        #   LLM API integration and response parsing
+│   │   └── hardwareClient.js  #   WebSocket and Web Serial communication
 │   └── assets/cards/          #   Visual card assets (78 illustrations)
-├── bridge/                    # Python WebSocket-to-serial bridge
-│   └── server.py              #   asyncio server with HTTP + WS + serial
-├── firmware/                  # MicroPython firmware for hardware companion
-│   └── main.py                #   Device behaviour, LED control, face engine
-├── hardware/                  # Device photos and physical prototype references
+├── bridge/                    # Python communication relay
+│   ├── server.py              #   Entry point: HTTP + WebSocket + serial
+│   ├── config.py              #   Configuration constants
+│   ├── serial_client.py       #   Serial port detection and I/O
+│   └── websocket_server.py    #   WebSocket client handler
+├── firmware/                  # MicroPython firmware for ESP32 device
+│   ├── main.py                #   Device behaviour, LED, faces, protocol
+│   └── config.example.py      #   Hardware configuration reference
+├── hardware/                  # Device photos and prototype references
 ├── docs/                      # Documentation, architecture, demo media
-│   ├── ARCHITECTURE.md        #   Detailed system architecture
+│   ├── ARCHITECTURE.md        #   Detailed three-layer system design
 │   ├── RESPONSIBLE_AI.md      #   AI safety and ethical considerations
 │   ├── DEMO_DAY.md            #   Entrepreneurship context and results
 │   ├── SETUP.md               #   Comprehensive installation guide
