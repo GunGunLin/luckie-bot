@@ -1,18 +1,31 @@
 <div align="center">
 
-<img src="docs/logo.svg" width="100" alt="Arcanum Lab">
+<br>
 
-# 🔮 Luckie-Bot
-
-### AI-Powered Tarot Companion · Hardware × LLM × Computer Vision
+<img src="docs/logo.svg" width="96" alt="Arcanum Lab">
 
 <br>
 
-[![Demo Day](https://img.shields.io/badge/🏆_Demo_Day-Champion-gold?style=flat-square&labelColor=1a1a2e)]()
-[![LLM](https://img.shields.io/badge/AI-DeepSeek_V3-blueviolet?style=flat-square&labelColor=1a1a2e)]()
-[![CV](https://img.shields.io/badge/CV-MediaPipe_Hands-00ccff?style=flat-square&labelColor=1a1a2e)]()
-[![Hardware](https://img.shields.io/badge/HW-M5StickC_Plus-orange?style=flat-square&labelColor=1a1a2e)]()
-[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square&labelColor=1a1a2e)]()
+# Luckie-Bot
+
+### *The AI Companion That Lives in Your Hands*
+
+<br>
+
+[![Demo Day](https://img.shields.io/badge/🏆_Demo_Day_Champion-ENTE_208-gold?style=for-the-badge&labelColor=0d0d1e&color=d4af37)]()
+[![DeepSeek](https://img.shields.io/badge/AI-DeepSeek_V3-6a5acd?style=for-the-badge&labelColor=0d0d1e)]()
+[![MediaPipe](https://img.shields.io/badge/CV-MediaPipe_Hands-00ccff?style=for-the-badge&labelColor=0d0d1e)]()
+[![Python](https://img.shields.io/badge/Python-3.10+-3776ab?style=for-the-badge&labelColor=0d0d1e)]()
+[![License](https://img.shields.io/badge/License-MIT-2ea44f?style=for-the-badge&labelColor=0d0d1e)]()
+
+<br>
+<br>
+
+<p>
+  <img src="docs/screenshots/ui-demo.gif" width="80%" alt="Product Demo">
+</p>
+
+### Fortune-Telling Meets Generative AI · Gesture-Powered · Hardware-Synchronized
 
 </div>
 
@@ -20,43 +33,59 @@
 
 ---
 
-## What is Luckie-Bot?
+## The Product
 
-An end-to-end AI product combining a physical companion device with an immersive web app for tarot divination. Users interact through **natural hand gestures**, receive **AI-generated readings** from DeepSeek-V3, and watch their **digital garden grow** — while a hardware device responds in real time with dynamic lighting and expressions.
+Luckie-Bot is a **tangible AI experience**. Pick a life category, draw three tarot cards through hand gestures in the air, and receive a personalized oracle reading generated in real time by DeepSeek-V3 — while a physical companion device on your desk breathes with light, displays facial expressions, and responds to every moment.
 
-<p align="center">
-  <img src="docs/screenshots/ui-demo.gif" width="85%" alt="Luckie-Bot UI Demo">
-</p>
+**It's a tarot reading. It's an AI companion. It's a living ecosystem that grows with you.**
 
-> 🥇 **First Place** at XJTLU ENT 208 Demo Day. *"This isn't a course project — it's an investable MVP."*
+<br>
 
 <p align="center">
-  <img src="docs/screenshots/user-testing.png" width="80%" alt="A user experiencing Luckie-Bot">
+  <img src="docs/screenshots/user-testing.png" width="75%" alt="Real user testing Luckie-Bot">
 </p>
+
+<br>
 
 ---
 
-## ✨ Features
+## ✨ Why Luckie-Bot?
 
-| | |
-|---|---|
-| 🎴 **AI Oracle** | DeepSeek-V3 generates personalized, poetic readings for Wealth · Study · Love · General |
-| ✋ **Gesture Control** | MediaPipe tracks 21 hand landmarks — pinch, palm, and fist to interact touch-free |
-| 💡 **Hardware Companion** | M5StickC Plus responds with LED breathing lights, LCD facial expressions, and sound |
-| 🌱 **Psionic Garden** | Your virtual plant grows with each session — 5 stages from Seed to Cosmic Tree |
-| 🧘 **Meditation** | Guided breathing orb with particle effects before each reading |
+<table>
+<tr>
+<td width="50%">
 
-### 🌱 Psionic Garden — Growth in Action
+### 🎴 AI That Reads You
+Not canned horoscopes. DeepSeek-V3 crafts unique, poetic interpretations for every draw — across **Wealth**, **Study**, **Love**, and **General** life categories. Each reading is a one-of-a-kind AI generation.
+
+### ✋ Touch the Invisible
+Google MediaPipe tracks 21 hand landmarks at 30fps. **Pinch** to select. **Palm** to invoke. **Fist** to confirm. No mouse. No keyboard. Pure ritual.
+
+### 💡 Light You Can Feel
+The M5StickC Plus hardware companion reacts in real time. **6 LED modes** (Breath, Pulse, Rainbow, Warm, Static, Off). **7 facial expressions**. Built-in buzzer tones. Software isn't intangible anymore.
+
+</td>
+<td width="50%">
+
+### 🌱 A Garden That Grows With You
+Every divination feeds your Psionic Garden. **5 growth stages** — from Seed to Cosmic Tree — across sessions. This isn't a progress bar. It's a living record of your journey with the AI.
 
 <p align="center">
-  <img src="docs/screenshots/garden-growth.gif" width="70%" alt="Garden growth animation">
+  <img src="docs/screenshots/garden-growth.gif" width="90%" alt="Garden Growth">
 </p>
 
-Each divination feeds your garden. Persistent growth across sessions turns repeat usage into a visual journey — a living record of your interaction with the AI.
+### 🧘 Breathe Before You Believe
+A guided breathing orb with particle absorption effects precedes every reading. 12 seconds of calm. Hardware-synchronized LED breathing. The perfect ritual before the AI speaks.
+
+</td>
+</tr>
+</table>
+
+<br>
 
 ---
 
-## 🏆 Demo Day
+## 🏆 Proven. Not Hypothetical.
 
 <p align="center">
   <img src="docs/screenshots/demo-day-01.jpg" width="45%">
@@ -64,74 +93,99 @@ Each divination feeds your garden. Persistent growth across sessions turns repea
   <img src="docs/screenshots/demo-day-02.jpg" width="45%">
 </p>
 
-| Dimension | Judges' Take |
-|-----------|--------------|
-| **Innovation** | "A novel intersection of AI, IoT, and wellness — we haven't seen this category before." |
-| **Technical Depth** | "3-tier production architecture. The gesture pipeline alone demonstrates strong engineering." |
-| **UX** | "Visual polish and interaction fluidity exceed typical course projects. Feels commercial." |
-| **Business** | "Clear monetization path. Hardware + subscription creates both revenue and lock-in." |
+<br>
+
+| | |
+|---|---|
+| 🥇 | **First Place** at XJTLU ENT 208 Demo Day |
+| 🎤 | Live demo with real-time AI + gesture + hardware sync — zero failures |
+| 🗣️ | Judge verdict: *"This isn't a course project — it's an investable MVP."* |
+
+<br>
 
 ---
 
-## 🏗️ How It Works
+## 🏗️ Under the Hood
 
 ```
-Browser (Gesture + UI)  ◄── WebSocket ──►  Python Bridge  ◄── Serial ──►  M5StickC Plus
-        │                                       │                               │
-        ▼                                       ▼                               ▼
-  DeepSeek-V3 API                        Command Router                   LED · LCD · Buzzer
-  MediaPipe Hands                       (asyncio, <20ms)               (Ambient Feedback)
+┌─────────────────────────────────────────────────────────────┐
+│  Browser                    Bridge                    Device │
+│  ┌──────────┐    WS     ┌──────────┐   Serial   ┌──────────┐│
+│  │ Gesture  │◄─────────►│ asyncio  │◄──────────►│ LED LCD  ││
+│  │ AI Call  │           │ Router   │           │ Face Btn ││
+│  │ Render   │           │ HTTP     │           │ Buzzer   ││
+│  └──────────┘           └──────────┘           └──────────┘│
+│       │                                                    │
+│       ▼ HTTPS                                              │
+│  ┌──────────┐                                              │
+│  │DeepSeek  │                                              │
+│  │V3 (671B) │                                              │
+│  └──────────┘                                              │
+└─────────────────────────────────────────────────────────────┘
 ```
 
-| Layer | Tech | Role |
-|-------|------|------|
-| 🖥️ **Frontend** | Vanilla JS · Canvas 2D · CSS 3D | Gesture pipeline, particle effects, 3D card flip, AI response rendering |
-| 🌉 **Bridge** | Python · asyncio · WebSocket · pyserial | Real-time bidirectional relay, multi-client connection management |
-| 🔌 **Hardware** | MicroPython · ESP32 · SK6812 LED | Ambient feedback loop, facial expression engine, standalone input |
+**Three clean layers. One seamless experience.** The browser handles AI + vision + rendering. The Python bridge relays commands in under 20ms. The hardware provides feedback you can see and feel.
+
+<br>
+
+| | |
+|---|---|
+| 🖥️ **Frontend** | `Vanilla JS` `Canvas 2D` `CSS 3D` `MediaPipe WASM` — zero framework, 60fps |
+| 🌉 **Bridge** | `Python` `asyncio` `WebSocket` `pyserial` — multi-client, non-blocking |
+| 🔌 **Firmware** | `MicroPython` `ESP32 RMT` `SK6812` — 7 dynamic faces, 6 LED modes |
+
+<br>
 
 ---
 
-## 🚀 Deploy in 3 Minutes
+## 🚀 One Command to Run
 
 ```bash
-git clone https://github.com/GunGunLin/luckie-bot.git
-cd luckie-bot
+git clone https://github.com/GunGunLin/luckie-bot.git && cd luckie-bot
 pip install websockets pyserial
 cd bridge && python server.py
-# Open http://localhost:8080 → enter API key → done ✨
 ```
 
-> **Need the hardware?** Flash `firmware/main.py` to M5StickC Plus via [Thonny](https://thonny.org/). The web app works standalone without hardware.
+**Open `http://localhost:8080`** — enter your free [SiliconFlow](https://siliconflow.cn) API key — done.
+
+> The web app works standalone. Flash `firmware/main.py` to M5StickC Plus only when you want the hardware companion.
+
+<br>
 
 ---
 
-## 📂 What's Inside
+## 📂 Repository
 
 ```
 luckie-bot/
-├── web/index.html          # Zero-dependency SPA (1450 LOC)
-│   └── assets/cards/       # 78 tarot card images
-├── bridge/server.py        # WebSocket ↔ Serial relay
-├── firmware/main.py        # M5StickC Plus MicroPython firmware
-├── hardware/               # Device reference photos
-└── docs/                   # Logo · screenshots · demo media
+├── web/
+│   ├── index.html          ← The entire SPA in one file
+│   └── assets/cards/       ← 78 tarot card illustrations
+├── bridge/
+│   └── server.py           ← WebSocket ⟷ Serial relay
+├── firmware/
+│   └── main.py             ← M5StickC Plus MicroPython
+├── hardware/               ← Device photos
+└── docs/                   ← Demos, screenshots
 ```
+
+<br>
 
 ---
 
-## 💼 Business Model
+## 💼 The Business Case
 
-Modern wellness seekers want personalized, tangible spiritual experiences. Existing apps are screen-only and generic.
+> Gen Z is spending $2.1B/year on spiritual wellness. But every product is either a generic app or a paper deck. **No one has bridged the physical-digital gap. Until now.**
 
-**Luckie-Bot bridges the physical-digital gap:**
+| Tier | Price | Includes |
+|------|-------|----------|
+| **Device** | `$49–79` | M5StickC Plus + SK6812 LED strip |
+| **Premium** | `$4.99/mo` | Unlimited AI readings, advanced card spreads, custom companion skins |
+| **Deluxe** | `$129` | Device + 1yr premium + limited-edition physical tarot deck + case |
 
-| Revenue Stream | Price | What They Get |
-|---------------|-------|---------------|
-| Device | $49–79 | M5StickC Plus + LED strip |
-| Premium | $4.99/mo | Unlimited AI readings, advanced spreads, companion skins |
-| Deluxe Kit | $129 | Device + 1yr premium + physical tarot deck |
+**Moat:** Hardware-software integration creates a barrier pure apps cannot cross. The device, the garden, the rituals — they compound into an ecosystem, not a feature list.
 
-**Defensible moat:** Hardware-software integration. No pure-app competitor can replicate the tangible, multi-sensory experience.
+<br>
 
 ---
 
@@ -139,6 +193,10 @@ Modern wellness seekers want personalized, tangible spiritual experiences. Exist
 
 <br>
 
-### 🏆 ENT 208 Demo Day Champion · XJTLU
+<img src="docs/logo.svg" width="48" alt="Arcanum Lab">
+
+### Arcanum Lab · XJTLU ENT 208
+
+**🥇 Demo Day Champion**
 
 </div>
