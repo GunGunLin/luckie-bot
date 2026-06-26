@@ -25,7 +25,7 @@
 An end-to-end AI product combining a physical companion device with an immersive web app for tarot divination. Users interact through **natural hand gestures**, receive **AI-generated readings** from DeepSeek-V3, and watch their **digital garden grow** — while a hardware device responds in real time with dynamic lighting and expressions.
 
 <p align="center">
-  <video src="docs/screenshots/ui-demo.mp4" autoplay muted loop playsinline width="85%"></video>
+  <img src="docs/screenshots/ui-demo.gif" width="85%" alt="Luckie-Bot UI Demo">
 </p>
 
 > 🥇 **First Place** at XJTLU ENT 208 Demo Day. *"This isn't a course project — it's an investable MVP."*
@@ -49,7 +49,7 @@ An end-to-end AI product combining a physical companion device with an immersive
 ### 🌱 Psionic Garden — Growth in Action
 
 <p align="center">
-  <video src="docs/screenshots/garden-growth.mp4" autoplay muted loop playsinline width="85%"></video>
+  <img src="docs/screenshots/garden-growth.gif" width="70%" alt="Garden growth animation">
 </p>
 
 Each divination feeds your garden. Persistent growth across sessions turns repeat usage into a visual journey — a living record of your interaction with the AI.
