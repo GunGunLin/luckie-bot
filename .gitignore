@@ -45,6 +45,10 @@ node_modules/
 tarot/
 硬件申请/
 
+# ── Raw media (organized copies in docs/) ──
+图片视频素材/
+*.mp4
+
 # ── Course documents ──
 Session2Group20_TechnicalDoc*.docx
 ent.docx
