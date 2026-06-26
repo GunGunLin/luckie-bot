@@ -25,10 +25,14 @@
 An end-to-end AI product combining a physical companion device with an immersive web app for tarot divination. Users interact through **natural hand gestures**, receive **AI-generated readings** from DeepSeek-V3, and watch their **digital garden grow** — while a hardware device responds in real time with dynamic lighting and expressions.
 
 <p align="center">
-  <img src="docs/screenshots/user-testing.png" width="80%" alt="A user experiencing Luckie-Bot">
+  <video src="docs/screenshots/ui-demo.mp4" autoplay muted loop playsinline width="85%"></video>
 </p>
 
 > 🥇 **First Place** at XJTLU ENT 208 Demo Day. *"This isn't a course project — it's an investable MVP."*
+
+<p align="center">
+  <img src="docs/screenshots/user-testing.png" width="80%" alt="A user experiencing Luckie-Bot">
+</p>
 
 ---
 
