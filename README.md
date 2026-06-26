@@ -81,18 +81,6 @@ The project demonstrates that meaningful AI innovation requires more than model 
 
 ---
 
-## 👤 My Role
-
-I served as **Product & Technical Lead** for Twelfth Night. My responsibilities included:
-
-- **Product concept and interaction design:** Defining the user journey, the gesture-based interaction flow, and the multi-sensory feedback model across the browser, bridge, and hardware layers.
-- **Full-stack technical implementation:** Building the browser-based interaction interface, integrating MediaPipe hand-gesture recognition, connecting LLM-generated responses with the product interaction logic, and adapting the Python WebSocket-to-serial bridge for real-time hardware communication.
-- **System architecture:** Designing the three-layer architecture (Browser–Bridge–Device) with clean separation of concerns, graceful degradation, and reliable real-time synchronisation.
-- **Live demonstration and presentation:** Preparing and delivering the end-to-end live demo — real-time AI, gesture recognition, and hardware feedback running together on stage — and presenting the business model to faculty and industry judges.
-- **Project leadership:** Coordinating the development pipeline from concept to working MVP, ensuring all three technology layers integrated reliably for a live audience.
-
----
-
 ## 🏗️ System Architecture
 
 ```mermaid
