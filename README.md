@@ -289,9 +289,9 @@ Twelfth Night is an AI interaction prototype. We take responsible design serious
 
 ---
 
-## 📝 What I Learned
+## 💡 Design Lessons
 
-Through Twelfth Night, I learned that AI innovation is not only about model capability. Building a meaningful AI product requires:
+Twelfth Night demonstrates that AI innovation is not only about model capability. Building a meaningful AI product requires:
 
 - **Interaction design** — how users access and experience the AI matters as much as the AI itself
 - **System integration** — connecting LLMs, computer vision, and hardware into a reliable real-time pipeline
@@ -299,7 +299,7 @@ Through Twelfth Night, I learned that AI innovation is not only about model capa
 - **Product narrative** — translating technical work into a story that non-technical audiences can understand and trust
 - **Live reliability** — building something that works on stage, not just on a development machine
 
-These lessons have shaped my interest in building **responsible, deployable, and emotionally meaningful AI applications** — work that sits at the intersection of technical capability and human experience.
+The project reflects an approach to AI development that values **responsible design, system-level thinking, and emotionally meaningful interaction** — work that sits at the intersection of technical capability and human experience.
 
 ---
 
