@@ -63,24 +63,6 @@ The project demonstrates that meaningful AI innovation requires more than model 
 
 ---
 
-## 🎥 Demo
-
-<p align="center">
-  <img src="docs/screenshots/ui-demo.gif" width="75%" alt="Real-time gesture interaction demo">
-  <br>
-  <sub>Real-time gesture interaction and AI response generation</sub>
-</p>
-
-<br>
-
-<p align="center">
-  <img src="docs/screenshots/garden-growth.gif" width="55%" alt="Persistent interaction memory">
-  <br>
-  <sub>Persistent interaction memory — the companion evolves across sessions</sub>
-</p>
-
----
-
 ## 🏗️ System Architecture
 
 ```mermaid
@@ -127,7 +109,11 @@ A physical companion device responds in real time: LED breathing patterns, LCD f
 
 ### Persistent Interaction Memory
 
-A visual companion evolves across sessions, creating a journey-based engagement model. This is not a mystical feature — it is a **persistent interaction memory** metaphor that demonstrates how AI products can build long-term user relationships.
+A visual companion evolves across sessions, creating a journey-based engagement model. This is a **persistent interaction memory** metaphor that demonstrates how AI products can build long-term user relationships.
+
+<p align="center">
+  <img src="docs/screenshots/garden-growth.gif" width="55%" alt="Persistent interaction memory — evolving across sessions">
+</p>
 
 ### Venture-Style MVP
 
