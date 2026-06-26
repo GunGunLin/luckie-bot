@@ -1,0 +1,57 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── IDE / Config ──
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+*~
+
+# ── Secrets ──
+.env
+*.pem
+secrets.yaml
+credentials.json
+
+# ── Dependencies ──
+node_modules/
+
+# ── Logs ──
+*.log
+
+# ── Course materials (not part of the product) ──
+*.docx
+模板.docx
+
+# ── Development history (organized into proper dirs) ──
+tarot/
+硬件申请/
+
+# ── Course documents ──
+Session2Group20_TechnicalDoc*.docx
+ent.docx
+ent_week3.docx
+
+# ── Temporary / Backup ──
+*.bak
+*.tmp
+*副本*
+*.zip

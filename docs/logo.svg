@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#02020a"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#ffd700"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <circle cx="60" cy="60" r="58" fill="url(#bg)" stroke="#d4af37" stroke-width="1.5" opacity="0.9"/>
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#6a5acd" stroke-width="0.5" opacity="0.4"/>
+  <!-- Star -->
+  <polygon points="60,15 68,40 95,40 73,55 82,80 60,65 38,80 47,55 25,40 52,40" fill="none" stroke="url(#gold)" stroke-width="2" filter="url(#glow)"/>
+  <!-- Inner star -->
+  <polygon points="60,22 66,40 84,40 69,52 75,70 60,59 45,70 51,52 36,40 54,40" fill="url(#gold)" opacity="0.6"/>
+  <!-- Eye in center -->
+  <circle cx="60" cy="52" r="10" fill="none" stroke="#d4af37" stroke-width="1.5"/>
+  <circle cx="60" cy="52" r="5" fill="#d4af37" opacity="0.8"/>
+  <circle cx="60" cy="52" r="2.5" fill="#1a1a2e"/>
+  <!-- Orbits -->
+  <ellipse cx="60" cy="60" rx="45" ry="15" fill="none" stroke="#6a5acd" stroke-width="0.3" opacity="0.3"/>
+  <ellipse cx="60" cy="60" rx="15" ry="45" fill="none" stroke="#6a5acd" stroke-width="0.3" opacity="0.3"/>
+</svg>
